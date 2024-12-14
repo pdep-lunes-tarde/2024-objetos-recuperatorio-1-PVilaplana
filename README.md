@@ -6,9 +6,9 @@ En papel
 
 ## Estudiante
 
-**Nombre y apellido:** -completar acá-
+**Nombre y apellido:** - Pilar Vilaplana -
 
-**Número de legajo:** -completar acá-
+**Número de legajo:** - 2081672 -
 
 ## Que hacer cuando terminan el parcial
 
