@@ -91,6 +91,10 @@ class MagoInmortal inherits Magos{}
 
 //Punto B
 class Gremio{
+    method initialize(){ 
+    self.validarLista()
+    }
+    
     const miembros = new List()
     
     method validarLista(){
