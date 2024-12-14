@@ -9,9 +9,10 @@ class ObjetoMagico{
 
 class Varitas inherits ObjetoMagico{
     override method agregarPoder(mago){
-        if(mago.nombre() / 2 ==0){
+        if(mago.nombre().mod(2) ==0){
         poderMax = poderBase * 1.5
         }
+        
     }
 }
 
