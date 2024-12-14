@@ -90,7 +90,7 @@ class MagoInmortal inherits Magos{}
 
 //Punto B
 class Gremio{
-    const miembros = new List().min(2)
+    const miembros = new List().max(2)
     
     
     var reservaDeEnergia
