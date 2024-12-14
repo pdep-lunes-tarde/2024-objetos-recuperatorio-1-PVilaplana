@@ -90,8 +90,13 @@ class MagoInmortal inherits Magos{}
 
 //Punto B
 class Gremio{
-    const miembros = new List().max(2)
+    const miembros = new List()
     
+    method validarLista(){
+        if(miembros.size() < 2){
+            self.error("El gremio no puede tener menos de 2 miembros")
+        }
+    }
     
     var reservaDeEnergia
     var resistenciaMagica
